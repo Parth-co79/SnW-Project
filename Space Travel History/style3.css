@@ -48,6 +48,9 @@ main{
     background-position: center;
     background-color:#efeff4;
 }
+main>div{
+    text-align: center;
+}
 main>div>div{
     display: flex;
     justify-content:space-evenly;
