@@ -13,25 +13,20 @@ header{
     height: 150px;
     background-size: cover;
     background-position: center;
+    
 }
-
 header>div#head > h1{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-header>div#head{
-    display: flex;
-    flex-wrap: wrap;
-    height: 150px;
+    
 }
 header>div>h1{
     color: white;
 }
 header>div#head>h1{
     position:relative;
-    bottom: 20px;
-    left: 500px;
+    bottom: 80px;
 }
 main{
     max-width: 2000px;
