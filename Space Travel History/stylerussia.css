@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header img{
+    width: 120px;
+    height: 120px;
+}
+header{
+    background-image: url(background.png);
+    max-width: 2000px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    
+}
+header>div#head > h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header>div>h1{
+    color: white;
+}
+header>div#head>h1{
+    position:relative;
+    bottom: 80px;
+}
+main{
+    max-width: 2000px;
+    background-size: cover;
+    background-position: center;
+    background-color:#efeff4;
+    text-align: center;
+
+}
+main>h2{
+    text-align: center;  
+}
+/* main>div{
+    text-align: left;
+    margin: 30px;
+} */
+main>p{
+    text-align: center;
+    margin: 0 30px;
+    font-size: large;
+}
+/* main>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+/* main>div>div{
+    margin: 0 33px;
+    width: 550px;
+    height: 550px;
+}
+main>div>div>div{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1px;
+} */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f5;
+    background-size: cover;
+    background-position: center;
+    max-width: 2000px;
+}
+footer button{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+footer button:hover{
+    background-color: rgb(221, 55, 55);
+}
+footer button:active{
+    background-color: rgb(53, 143, 192);
+    color: white;
+}
+span{
+    font-weight: bold;
+}
